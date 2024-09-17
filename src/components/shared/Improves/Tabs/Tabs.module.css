@@ -1,0 +1,29 @@
+.tabs {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	overflow: hidden;
+	overflow-x: auto;
+	background-color: #ffffff0f;
+	padding: 8px;
+	border-radius: 12px;
+	margin-bottom: 14px;
+}
+
+.item {
+	padding: 8px;
+	border-radius: 8px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: var(--gray-color);
+}
+
+.active {
+	background-color: var(--bg-dark-color);
+	color: var(--white-color);
+}
+
+.text {
+	font-size: 14px;
+}

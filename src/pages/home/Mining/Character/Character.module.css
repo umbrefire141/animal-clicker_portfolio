@@ -1,0 +1,58 @@
+.click {
+	width: 100%;
+	margin: 0 auto 20px;
+	z-index: 1;
+	transition: all 0.3s;
+}
+
+.click_character {
+	display: block;
+	width: 175px;
+	height: 262px;
+	margin: 0 auto;
+	user-select: none;
+	pointer-events: none;
+	position: relative;
+	z-index: -1;
+}
+
+.click_bg {
+	position: absolute;
+	width: 365px;
+	height: 360px;
+	top: 5%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: -2;
+	pointer-events: none;
+	transition: all 0.3s;
+	opacity: 0.5;
+}
+
+.bg_active {
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+.click_text {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 22px;
+	letter-spacing: -0.41px;
+	-webkit-text-fill-color: transparent;
+	background: radial-gradient(
+		62.33% 123.33% at 50% 50%,
+		#ffffff 0%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	background-clip: text;
+	position: absolute;
+	animation: textMovies 10s linear 0s infinite normal;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	user-select: none;
+}

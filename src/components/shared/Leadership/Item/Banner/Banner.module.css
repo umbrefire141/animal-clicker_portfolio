@@ -1,0 +1,15 @@
+.title {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.position_name {
+	margin-bottom: 13px;
+}

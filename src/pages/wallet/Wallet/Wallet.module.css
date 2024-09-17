@@ -1,0 +1,128 @@
+.wallet {
+	display: flex;
+	flex-direction: column;
+	height: 97vh;
+	justify-content: space-between;
+	padding-bottom: 99px;
+}
+
+.title {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.balance {
+	width: 100%;
+	margin-bottom: 16px;
+	padding: 8px 8px 16px;
+	border-radius: 16px;
+	background-color: var(--bg-dark-color);
+}
+
+.balance_block {
+	background-color: #ffffff0f;
+	padding: 8px 8px 8px 16px;
+	border-radius: 10px;
+	margin-bottom: 16px;
+}
+
+.balance_block-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 6px;
+}
+
+.balance_name {
+	font-weight: 800;
+	margin-bottom: 4px;
+}
+
+.balance_course {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16.4px;
+}
+
+.balance_icon {
+	width: 40px;
+	height: 40px;
+	background-color: var(--bg-dark-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.sum {
+	text-align: center;
+}
+
+.sum_title {
+	margin-bottom: 2px;
+}
+
+.list-text {
+	font-weight: 800;
+	margin-bottom: 6px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
+
+.operation {
+	background-color: var(--bg-dark-color);
+	padding: 8px;
+	border-radius: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.operation_row {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+}
+
+.operation_img {
+	width: 36px;
+	height: 36px;
+	background: #ffffff0f;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16.8px;
+	margin-bottom: 2px;
+}
+
+.date {
+	font-size: 10px;
+}
+
+.operation_sum {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16.8px;
+}
+
+.btns {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-top: 10px;
+}
+
+.btn,
+.btn div {
+	width: 100%;
+}

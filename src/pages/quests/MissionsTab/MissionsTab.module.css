@@ -1,0 +1,37 @@
+.item {
+	padding: 16px;
+	gap: 8px;
+}
+
+.gold_wrapper {
+	border-radius: 1rem;
+	padding: 2px 2px;
+	background: linear-gradient(
+		270.51deg,
+		#c033cc -2.36%,
+		#445de5 47.28%,
+		#18cdd3 100%
+	);
+}
+
+.item_row {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.item_img {
+	width: 60px;
+	height: 60px;
+}
+
+.item_text {
+	margin-bottom: 6px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 20px;
+}

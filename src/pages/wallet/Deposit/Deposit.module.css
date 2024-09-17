@@ -1,0 +1,36 @@
+.deposit {
+	display: flex;
+	flex-direction: column;
+	height: 97vh;
+	justify-content: space-between;
+	padding-bottom: 99px;
+}
+
+.title {
+	margin-bottom: 24px;
+}
+
+.navbar {
+	max-width: 355px;
+	margin: 0 auto;
+}
+
+.btns {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+.btn,
+.btn div {
+	width: 100%;
+}
+
+.info_text {
+	font-size: 10px;
+	color: var(--gray-color);
+	line-height: 120%;
+	text-align: center;
+}

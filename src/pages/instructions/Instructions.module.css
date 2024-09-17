@@ -1,0 +1,32 @@
+.instruction {
+	position: relative;
+	padding: 15px 15px 20px;
+	background-image: url('@/assets/images/glow-bg.png');
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100vh;
+}
+
+.maxHeight {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	z-index: 1000;
+	max-width: 333px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 5%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn {
+	max-width: 160px;
+	width: 100%;
+}

@@ -1,0 +1,43 @@
+.sum {
+	margin-bottom: 40px;
+}
+
+.sum_input {
+	margin-bottom: 10px;
+}
+
+.sum_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 6px;
+}
+
+.small_text {
+	font-size: 10px;
+	color: var(--gray-color);
+	text-align: center;
+}
+
+.wallet {
+	margin-bottom: 60px;
+}
+
+.wallet_text {
+	margin-bottom: 10px;
+}
+
+.withdraw_history {
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	margin-bottom: 16px;
+	color: var(--white-color);
+	text-align: center;
+	text-decoration-line: underline;
+}
+
+.withdraw_btn {
+	margin-bottom: 4px;
+}

@@ -1,0 +1,9 @@
+.icon {
+	max-width: 24px;
+	width: 100%;
+	height: 24px;
+}
+
+.icon path {
+	fill: var(--purple-color);
+}

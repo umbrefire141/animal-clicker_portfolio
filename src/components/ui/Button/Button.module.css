@@ -1,0 +1,95 @@
+.btn {
+	width: 100%;
+	font-size: 1rem;
+	font-weight: 800;
+	letter-spacing: -0.02rem;
+	line-height: 140%;
+	color: var(--white-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.2em;
+	outline: none;
+	border: none;
+	padding: 1em;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: box-shadow 0.3s;
+	white-space: nowrap;
+}
+
+.gradient:not(.outline_btn) {
+	background: linear-gradient(
+		268.43deg,
+		#c033cc -0.68%,
+		#445de5 48.46%,
+		#18cdd3 100.63%
+	);
+}
+
+.purple:not(.outline_btn) {
+	background-color: var(--purple-color);
+}
+
+.clear:not(.outline_btn) {
+	background-color: #ffffff0f;
+}
+
+.full_wrapper .btn:active {
+	background: linear-gradient(180deg, #c859d2 0%, #b345bd 100%);
+	box-shadow: 0px -1px 2px 0px rgba(109, 26, 117, 0.46) inset,
+		0px -4px 4px 0px rgba(109, 26, 117, 0.4) inset,
+		0px -10px 6px 0px rgba(109, 26, 117, 0.23) inset,
+		0px -17px 7px 0px rgba(109, 26, 117, 0.07) inset,
+		0px -27px 8px 0px rgba(109, 26, 117, 0.01) inset;
+}
+
+.full_wrapper .btn:disabled {
+	background: #ffffff0f;
+	color: var(--gray-color);
+	cursor: default;
+	box-shadow: none;
+}
+
+.outline {
+	border-radius: 12px;
+	padding: 2px;
+	position: relative;
+	z-index: 1;
+}
+
+.outline::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	border-radius: 12px;
+	border: 2px solid transparent;
+	background: linear-gradient(327.78deg, #9829a2 12.76%, #c033cc 81.48%)
+		border-box;
+	mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: destination-out;
+	mask-composite: exclude;
+	z-index: -1;
+}
+
+.outline_btn {
+	background-color: transparent;
+	color: #b143bb;
+}
+
+.outline_btn:active {
+	box-shadow: -1px -1px 2px 0px #81268861, -2px -3px 3px 0px #81268854,
+		-5px -6px 4px 0px #81268830, -8px -10px 5px 0px #8126880f,
+		-13px -16px 6px 0px #81268803;
+}
+
+.outline[data-disabled='true'],
+.outline[data-disabled='true']::before {
+	content: none;
+}
+
+.outline_btn:disabled {
+	border: 2px solid #ffffff0f;
+	color: #ffffff0f;
+}

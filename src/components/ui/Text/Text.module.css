@@ -1,0 +1,11 @@
+.text {
+	letter-spacing: -0.02em;
+}
+
+.gray {
+	color: var(--gray-color);
+}
+
+.purple {
+	color: #b344be;
+}

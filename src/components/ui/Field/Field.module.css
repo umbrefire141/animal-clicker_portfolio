@@ -1,0 +1,31 @@
+.input {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	padding: 16px;
+	border-radius: 16px;
+}
+
+.purple {
+	background-color: var(--bg-dark-color);
+}
+
+.clear {
+	background-color: #ffffff0f;
+}
+
+.field {
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: -0.02em;
+	color: var(--white-color);
+}
+
+.field::placeholder {
+	color: var(--gray-color);
+}

@@ -1,0 +1,110 @@
+.name {
+	margin: 10px 0 4px;
+	text-align: center;
+}
+
+.skin-text {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.row {
+	display: flex;
+	gap: 6px;
+	margin-bottom: 10px;
+}
+
+.item {
+	width: 100%;
+	padding: 8px;
+	border-radius: 14px;
+	background: #ffffff0f;
+}
+
+.item_text {
+	font-size: 10px;
+	text-align: center;
+	color: #b9b9b9;
+}
+
+.money {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+}
+
+.money_img {
+	width: 20px;
+	height: 20px;
+}
+
+.money_text {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.skins {
+	display: flex;
+	overflow-x: auto;
+	gap: 6px;
+	margin: 0 -14% 10px 0;
+}
+
+.skin {
+	width: 72px;
+	height: 100px;
+	background-color: #ffffff0f;
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.active {
+	position: relative;
+	z-index: 1;
+	background-color: transparent;
+}
+
+.active::before {
+	content: '';
+	border: 2px solid transparent;
+	border-radius: 10px;
+	background: linear-gradient(
+			270.51deg,
+			#c033cc -2.36%,
+			#445de5 47.28%,
+			#18cdd3 100%
+		)
+		border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: destination-out;
+	mask-composite: exclude;
+}
+
+.skin_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: transparent;
+}
+
+.skin_img {
+	max-width: 80px;
+	width: 80px;
+	height: 80px;
+}
+
+.skin_lock {
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+}

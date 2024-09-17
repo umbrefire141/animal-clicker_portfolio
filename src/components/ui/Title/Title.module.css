@@ -1,0 +1,17 @@
+.title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 32px;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}

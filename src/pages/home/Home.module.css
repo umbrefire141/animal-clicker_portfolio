@@ -1,0 +1,159 @@
+.home {
+	height: 100%;
+	overflow: hidden;
+	padding: 20px 10px;
+}
+
+.container {
+	max-width: 375px;
+	margin: 0 auto;
+}
+
+.bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.coins {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 31px;
+}
+
+.coins_img {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	z-index: 1;
+}
+
+.coins_text {
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 22px;
+	letter-spacing: -0.41px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 6px;
+	margin-bottom: 8px;
+}
+
+.character {
+	width: 196px;
+	height: 444px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
+}
+
+.item {
+	display: block;
+	position: relative;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	color: #fff;
+}
+
+.item_img {
+	width: 79px;
+	height: 76px;
+}
+
+.item_text {
+	position: absolute;
+	bottom: -35%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: var(--bg-color);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.income {
+	max-width: 98px;
+	justify-content: space-between;
+	display: flex;
+	gap: 4px;
+	margin: 0 auto 6px;
+}
+
+.income__img {
+	width: 16px;
+	height: 16px;
+}
+
+.income__text {
+	font-size: 10px;
+	line-height: 22px;
+	color: #b9b9b9;
+}
+
+.coin_questions {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 16px;
+	height: 16px;
+	font-size: 12px;
+	line-height: 14.4px;
+	border-radius: 100px;
+	padding: 2px;
+	background-color: #bcbdc866;
+	color: #fff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.block {
+	max-width: 164px;
+	width: 100%;
+	height: 58px;
+	padding: 7px;
+	background-color: #ffffff0f;
+	border-radius: 14px;
+	line-height: 16.8px;
+}
+
+.block__text {
+	font-size: 10px;
+	color: #b9b9b9;
+	text-align: center;
+}
+
+.coin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	margin: 2px 0;
+}
+
+.coin_img {
+	width: 20px;
+	height: 20px;
+}
+
+.coin_text {
+	display: block;
+	font-size: 14px;
+}
+
+.coin_two {
+	height: 17px;
+	margin: 0;
+}

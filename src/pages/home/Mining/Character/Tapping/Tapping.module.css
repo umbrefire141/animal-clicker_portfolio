@@ -1,0 +1,30 @@
+.tapping {
+	position: absolute;
+	pointer-events: none;
+	animation: float 1s ease-out forwards;
+}
+
+.tapping div {
+	font-weight: 700;
+	font-size: 32px;
+	color: transparent;
+	background-clip: text;
+	background-image: linear-gradient(
+		344.23deg,
+		#c033cc 4.68%,
+		#445de5 40.33%,
+		#18cdd3 78.18%
+	);
+}
+
+@keyframes float {
+	0% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+}

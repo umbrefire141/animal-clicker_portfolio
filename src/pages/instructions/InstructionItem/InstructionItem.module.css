@@ -1,0 +1,50 @@
+.bg {
+	width: 100%;
+	position: fixed;
+	top: -4%;
+	left: 50%;
+	bottom: 0px;
+	z-index: -1;
+	transform: translateX(-50%);
+}
+.container {
+	max-width: 350px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.height {
+	height: 75vh;
+}
+
+.img {
+	display: block;
+	width: auto;
+	height: auto;
+	filter: drop-shadow(rgba(188, 71, 199, 0.6) 0px 4px 84px);
+	margin-bottom: 40px;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 32px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.text {
+	margin-bottom: 40px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+
+.additionItem {
+	margin-bottom: 30px;
+}
+
+.select {
+	width: 100%;
+}

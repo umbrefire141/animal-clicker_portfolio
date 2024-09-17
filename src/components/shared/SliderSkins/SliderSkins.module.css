@@ -1,0 +1,39 @@
+.slider {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	width: 137px;
+	height: 204px;
+	position: relative;
+}
+
+.img {
+	position: absolute;
+	width: 137px;
+	height: 204px;
+	filter: drop-shadow(rgba(188, 71, 199, 0.6) 0px 4px 84px);
+}
+
+.btn {
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.btn_icon {
+	display: block;
+	width: 40px;
+	height: 40px;
+	max-width: fit-content;
+}
+
+.btn_icon path {
+	stroke: #ffffff0f;
+}

@@ -1,0 +1,14 @@
+.line {
+	margin-bottom: 10px;
+}
+
+.line_text {
+	margin-bottom: 10px;
+}
+
+.time {
+	font-size: 14px;
+	color: var(--gray-color);
+	margin-top: 2px;
+	text-align: right;
+}

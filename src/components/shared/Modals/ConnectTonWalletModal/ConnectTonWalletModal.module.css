@@ -1,0 +1,22 @@
+.img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -15%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.title {
+	margin-bottom: 30px;
+}
+
+.text {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.btn {
+	margin-bottom: 20px;
+}

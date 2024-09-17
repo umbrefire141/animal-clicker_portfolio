@@ -1,0 +1,20 @@
+.img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -17%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.title {
+	max-width: 279px;
+	text-align: center;
+	margin: 0 auto 20px;
+}
+
+.text {
+	max-width: 259px;
+	text-align: center;
+	margin: 0 auto 20px;
+}

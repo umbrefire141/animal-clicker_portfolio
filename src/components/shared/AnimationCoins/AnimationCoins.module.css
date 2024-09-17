@@ -1,0 +1,14 @@
+.img {
+	max-width: 24px;
+	width: 100%;
+	height: 24px;
+	user-select: none;
+	z-index: 100000000;
+	position: fixed;
+}
+
+.img img {
+	max-width: inherit;
+	width: inherit;
+	height: inherit;
+}

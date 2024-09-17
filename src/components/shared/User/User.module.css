@@ -1,0 +1,43 @@
+.user {
+	border-radius: 16px;
+	padding: 10px;
+	background: #ffffff0f;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.avatar {
+	width: 30px;
+	height: 30px;
+}
+
+.number {
+	color: #2d1436;
+}
+
+.coin {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-bottom: 2px;
+}
+
+.coin img {
+	width: 16px;
+	height: 16px;
+}
+
+.coin_text {
+	font-size: 12px;
+}
