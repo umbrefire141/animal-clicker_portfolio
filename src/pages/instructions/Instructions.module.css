@@ -1,6 +1,6 @@
 .instruction {
 	position: relative;
-	padding: 15px 15px 20px;
+	padding: 15px 15px 15%;
 	background-image: url('@/assets/images/glow-bg.png');
 	background-size: cover;
 	overflow-x: hidden;

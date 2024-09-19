@@ -18,6 +18,8 @@
 	border-radius: 20px;
 	background: #ffffff0f;
 	backdrop-filter: blur(64px);
+	justify-content: center;
+	gap: 16px;
 }
 
 .item {
@@ -32,8 +34,8 @@
 }
 
 .navbar svg {
-	width: 24px;
-	height: 24px;
+	width: 16px;
+	height: 16px;
 	margin-bottom: 2px;
 }
 

@@ -63,14 +63,12 @@
 }
 
 .select {
-	display: grid;
 	position: absolute;
 	list-style: none;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	z-index: 10;
+	z-index: 100000000;
 	color: var(--white-color);
 	background-color: var(--bg-dark-color);
 	border: 2px solid #2d1436;

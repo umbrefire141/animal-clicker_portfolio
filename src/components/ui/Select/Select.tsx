@@ -1,23 +1,25 @@
 import clsx from 'clsx';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { MouseEventHandler, useEffect, useRef, useState } from 'react';
 import Option from './Option/Option';
 import { ISelectComponent, Option as OptionType } from './Select.interface';
 import styles from './Select.module.css';
 
-const menuVariants = {
+const menuVariants: Variants = {
 	open: (height = 'auto') => ({
-		display: 'block',
 		height,
 		opacity: 1,
+		zIndex: 10000,
+		visibility: 'visible',
 		transition: {
 			type: 'spring',
 		},
 	}),
 	closed: {
-		display: 'none',
 		height: 0,
 		opacity: 0,
+		zIndex: -1,
+		visibility: 'hidden',
 		transition: {
 			type: 'spring',
 		},
@@ -45,6 +47,7 @@ const Select = ({
 		const handleClick = (event: MouseEvent) => {
 			const { target } = event;
 			if (target instanceof Node && !rootRef.current?.contains(target)) {
+				// eslint-disable-next-line @typescript-eslint/no-unused-expressions
 				isOpen && onClose?.();
 				setIsOpen(false);
 			}
@@ -99,7 +102,11 @@ const Select = ({
 					</button>
 				</div>
 			</div>
-			<motion.nav initial={isOpen} animate={isOpen ? 'open' : 'closed'}>
+			<motion.nav
+				initial={isOpen}
+				className={styles.select_wrapper}
+				animate={isOpen ? 'open' : 'closed'}
+			>
 				<motion.ul className={styles.select} variants={menuVariants}>
 					{options.map(option =>
 						option.value === selectedOption?.value ? (
