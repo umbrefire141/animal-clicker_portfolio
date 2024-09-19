@@ -53,7 +53,7 @@
 	box-shadow: 0px 1px 2px 0px #1e1f381a, 0px 3px 3px 0px #1e1f3817,
 		0px 7px 4px 0px #1e1f380d, 0px 12px 5px 0px #1e1f3803,
 		0px 19px 5px 0px #1e1f3800;
-	padding: 8px 10px;
+	padding: 8px;
 	color: var(--gray-color);
 }
 
